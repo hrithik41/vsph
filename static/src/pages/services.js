@@ -1,0 +1,1 @@
+/* Service links use native anchors and remain usable without JavaScript. */

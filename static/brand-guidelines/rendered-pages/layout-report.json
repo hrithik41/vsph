@@ -1,0 +1,429 @@
+{
+  "title": "VSPH — Brand Guidelines v1.0",
+  "pageCount": 32,
+  "fonts": [
+    {
+      "family": "Inter",
+      "status": "loaded"
+    }
+  ],
+  "brokenImages": [],
+  "pages": [
+    {
+      "page": 1,
+      "title": "",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 2,
+      "title": "One brand. Every touchpoint.",
+      "box": {
+        "x": 0,
+        "y": 814,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 3,
+      "title": "Brand foundations",
+      "box": {
+        "x": 0,
+        "y": 1628,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 4,
+      "title": "Built around what comes next.",
+      "box": {
+        "x": 0,
+        "y": 2442,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 5,
+      "title": "A clear reason to build.",
+      "box": {
+        "x": 0,
+        "y": 3256,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 6,
+      "title": "People. Products. Possibilities.",
+      "box": {
+        "x": 0,
+        "y": 4070,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 7,
+      "title": "Our identity",
+      "box": {
+        "x": 0,
+        "y": 4884,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 8,
+      "title": "A recognizable expression of progress.",
+      "box": {
+        "x": 0,
+        "y": 5698,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 9,
+      "title": "Choose the right version.",
+      "box": {
+        "x": 0,
+        "y": 6512,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 10,
+      "title": "Give the logo room to work.",
+      "box": {
+        "x": 0,
+        "y": 7326,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 11,
+      "title": "One signature. A clear hierarchy.",
+      "box": {
+        "x": 0,
+        "y": 8140,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 12,
+      "title": "Protect what makes us recognizable.",
+      "box": {
+        "x": 0,
+        "y": 8954,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 13,
+      "title": "Visual language",
+      "box": {
+        "x": 0,
+        "y": 9768,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 14,
+      "title": "Our colors. Precise and purposeful.",
+      "box": {
+        "x": 0,
+        "y": 10582,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 15,
+      "title": "Color should clarify, not compete.",
+      "box": {
+        "x": 0,
+        "y": 11396,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 16,
+      "title": "Inter. Clear by design.",
+      "box": {
+        "x": 0,
+        "y": 12210,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 17,
+      "title": "A hierarchy that does the work.",
+      "box": {
+        "x": 0,
+        "y": 13024,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 18,
+      "title": "Structure creates confidence.",
+      "box": {
+        "x": 0,
+        "y": 13838,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 19,
+      "title": "A visual language of forward motion.",
+      "box": {
+        "x": 0,
+        "y": 14652,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 20,
+      "title": "Simple icons. Shared construction.",
+      "box": {
+        "x": 0,
+        "y": 15466,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 21,
+      "title": "Technology with people in the picture.",
+      "box": {
+        "x": 0,
+        "y": 16280,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 22,
+      "title": "Voice & messaging",
+      "box": {
+        "x": 0,
+        "y": 17094,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 23,
+      "title": "Confident enough to be clear.",
+      "box": {
+        "x": 0,
+        "y": 17908,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 24,
+      "title": "Say what matters, in the right order.",
+      "box": {
+        "x": 0,
+        "y": 18722,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 25,
+      "title": "Less jargon. More meaning.",
+      "box": {
+        "x": 0,
+        "y": 19536,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 26,
+      "title": "Brand in practice",
+      "box": {
+        "x": 0,
+        "y": 20350,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 27,
+      "title": "A digital presence with purpose.",
+      "box": {
+        "x": 0,
+        "y": 21164,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 28,
+      "title": "Present ideas with a clear point of view.",
+      "box": {
+        "x": 0,
+        "y": 21978,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 29,
+      "title": "Consistency in everyday communication.",
+      "box": {
+        "x": 0,
+        "y": 22792,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 30,
+      "title": "One identity. Different conversations.",
+      "box": {
+        "x": 0,
+        "y": 23606,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 31,
+      "title": "Prepare once. Reproduce consistently.",
+      "box": {
+        "x": 0,
+        "y": 24420,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    },
+    {
+      "page": 32,
+      "title": "Make every detail feel like VSPH.",
+      "box": {
+        "x": 0,
+        "y": 25234,
+        "width": 1122,
+        "height": 794
+      },
+      "overflow": [],
+      "footerOverlap": [],
+      "clippedText": []
+    }
+  ]
+}
