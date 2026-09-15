@@ -8,7 +8,7 @@
   border-bottom: 1px solid var(--line);
 }
 .hero-left {
-  flex: 0 0 55%;
+  flex: 0 0 50%;
   padding: 140px 80px 60px;
   display: flex;
   flex-direction: column;
@@ -105,7 +105,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 55%;
+  width: 60%;
   height: 100%;
   clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
   z-index: 1;
@@ -120,15 +120,6 @@
   height: 100%;
   object-fit: cover;
   object-position: right center;
-}
-.hero-diagonal-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(105deg, rgba(255,255,255,0) 20%, rgba(80, 192, 232, 0.2) 20%, rgba(0, 105, 200, 0.4));
-  pointer-events: none;
 }
 .hero-vision-box {
   position: absolute;
