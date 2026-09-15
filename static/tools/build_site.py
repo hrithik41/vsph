@@ -14,39 +14,20 @@ PAGES = {
     'approach': ('Approach', 'Think. Build. Grow. — The VSPH Approach', 'From understanding the challenge to shaping the solution and enabling what follows. Explore VSPH’s thoughtful approach to software.'),
     'contact': ('Contact', 'Discuss Your Project — VSPH', 'Tell VSPH what you want to build. Prepare your project enquiry for web solutions, mobile applications, custom software or consulting.'),
 }
-ARROW = '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg>'
 LOGO = (SRC / 'components/logo.svg').read_text()
 
-def nav_links(current):
-    return ''.join(f'<a class="nav-link" href="{key}.html"{(" aria-current=\"page\"" if key == current else "")}>{label}</a>' for key, (label, _, _) in PAGES.items())
-
-def header(current):
-    links = nav_links(current)
-    return f'''<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header" id="top">
-  <div class="container header-inner">
-    <a class="brand-link" href="index.html" aria-label="VSPH home">{LOGO}</a>
-    <nav class="desktop-nav" aria-label="Main navigation">{links}</nav>
-    <a class="button button-primary header-cta" href="contact.html">Discuss your project {ARROW}</a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-navigation" aria-label="Open navigation">
-      <svg data-menu-open class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-      <svg data-menu-close class="icon" viewBox="0 0 24 24" aria-hidden="true" hidden><path d="m6 6 12 12M6 18 18 6"/></svg>
-    </button>
-  </div>
-  <nav class="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation" hidden>{links}<a class="button button-primary" href="contact.html">Discuss your project {ARROW}</a></nav>
-</header>'''
-
-def footer():
-    return f'''<footer class="site-footer">
-  <div class="container">
-    <div class="footer-main">
-      <div class="footer-brand"><a class="brand-link" href="index.html" aria-label="VSPH home">{LOGO}</a><p>Enterprise Software Solutions<br>for a Smarter Tomorrow.</p></div>
-      <div class="footer-column"><h2>Explore VSPH</h2><ul><li><a href="about.html">About VSPH</a></li><li><a href="services.html">Our services</a></li><li><a href="approach.html">Our approach</a></li><li><a href="contact.html">Discuss your project</a></li></ul></div>
-      <div class="footer-column"><h2>Our capabilities</h2><ul><li><a href="services.html#web">Web Solutions</a></li><li><a href="services.html#mobile">Mobile Applications</a></li><li><a href="services.html#software">Custom Software</a></li><li><a href="services.html#consulting">Collaboration &amp; Consulting</a></li></ul></div>
-    </div>
-    <div class="footer-bottom"><p>© <span data-year>2026</span> VSPH. All rights reserved.</p><span class="footer-signature">PEOPLE &nbsp;|&nbsp; PRODUCTS &nbsp;|&nbsp; POSSIBILITIES</span><a class="back-top" href="#top">Back to top <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V4m-6 6 6-6 6 6"/></svg></a></div>
-  </div>
-</footer>'''
+def render_component(name, current_page=""):
+    path = SRC / 'components' / f'{name}.html'
+    if not path.exists():
+        return ""
+    content = path.read_text()
+    
+    # Simple logic to highlight the active navigation link
+    content = content.replace(f'href="{current_page}.html"', f'href="{current_page}.html" aria-current="page"')
+    
+    # Inject the VSPH logo
+    content = content.replace('{{ LOGO }}', LOGO)
+    return content
 
 def build():
     for key, (_, title, description) in PAGES.items():
@@ -72,9 +53,9 @@ def build():
   <script src="{key}.js" defer></script>
 </head>
 <body>
-{header(key)}
-{source.read_text()}
-{footer()}
+{render_component('navbar', key)}
+{source.read_text().replace('{{ include_hero }}', render_component('hero'))}
+{render_component('footer', key)}
 </body>
 </html>
 '''

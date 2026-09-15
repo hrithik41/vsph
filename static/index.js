@@ -51,10 +51,3 @@
     });
   }
 })();
-
-/* Index page */
-// Home page specific logic
-document.addEventListener('DOMContentLoaded', () => {
-  // Logic for home page interactions can be added here.
-  // base.js handles the global reveal animations.
-});
