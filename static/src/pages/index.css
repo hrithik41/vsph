@@ -311,3 +311,13 @@
     font-size: 16px;
   }
 }
+
+/* Home page transparent header */
+.site-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  border-bottom: none;
+  backdrop-filter: none;
+}
